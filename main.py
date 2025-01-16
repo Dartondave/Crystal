@@ -64,10 +64,10 @@ def main():
             while True:
                 print("Sending ad...")
                 send_ad(token)
-                time.sleep(2)
+                time.sleep(0.5)
                 print("Sending spin...")
                 send_spin(token)
-                time.sleep(2)
+                time.sleep(0.5)
             time.sleep(360)  # 6 minutes     
 
 # Run the script
