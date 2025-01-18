@@ -69,12 +69,12 @@ def main():
             for _ in range(5):  # Adjust the range to control repetitions
                 send_ad(token)
                 send_spin(token)
-                time.sleep(2)  # Prevent spamming the server
+                time.sleep(0.00000000002)  # Prevent spamming the server
 
 if __name__ == "__main__":
     while True:
         try:
             main()
         except Exception as e:
-            print(f"An error occurred: {e}. Restarting in 10 seconds...")
-            time.sleep(10)
+            print(f"An error occurred: {e}. Restarting in 1 second...")
+            time.sleep(1)
